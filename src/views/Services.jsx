@@ -3,8 +3,8 @@ import Title from '../components/Title';
 
 function Services() {
     return (
-        <div className='h-screen glass text-white'>
-            <Title></Title>
+        <div className='h-full glass text-white'>
+            <Title normal="Our" highlighted="Services" />
             <div className='flex flex-col items-center pb-14'>
                 <div className='glass rounded-15 flex flex-col items-center w-3/4 py-14'>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={0.4} stroke="currentColor" className="w-32 h-32">
