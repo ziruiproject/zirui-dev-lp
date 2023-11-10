@@ -3,15 +3,10 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      fontFamily: {
-        serif: ["Cormorant Garamond"],
-      },
       colors: {
-        green: "#08FFC8",
-        white: "#FFF7F7",
-      },
-      borderWidth: {
-        1: "1px",
+        blackCustom: "#131416",
+        greenCustom: "#08FFC8",
+        whiteCustom: "#FFF7F7",
       },
     },
   },

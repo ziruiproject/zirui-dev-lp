@@ -12,3 +12,15 @@
 ::-webkit-scrollbar {
   display: none;
 }
+
+body {
+  @apply bg-blackCustom text-whiteCustom;
+}
+
+.title {
+  @apply text-5xl md:text-7xl;
+}
+
+.title-description {
+  @apply text-xl md:text-2xl font-thin;
+}
