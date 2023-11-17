@@ -11,7 +11,7 @@ function Hero() {
         <div className='h-screen'>
             <div className='bg-fixed magicpattern -z-50'></div>
             <Navbar></Navbar>
-            <div className='flex flex-col justify-center mx-10 font-serif text-center h-5/6'>
+            <div className='flex flex-col justify-center items-center align-middle mx-10 font-serif text-center h-5/6'>
                 <h1 className='px-2 text-6xl font-semibold'>
                     <span style={coloredStyle}>Transforming</span> Your Digital Dreams Into <span style={coloredStyle}>Reality</span>
                 </h1>
