@@ -8,9 +8,7 @@ function Hero() {
     }
 
     return (
-        <div style={{ backgroundImage: `url(${heroImage})` }}
-            className='flex-col h-screen  bg-cover bg-center bg-no-repeat px-1'
-        >
+        <div className='magicpattern flex-col h-screen bg-cover bg-center bg-no-repeat px-1'>
             <Navbar></Navbar>
             <div className='flex flex-col justify-center h-5/6 mx-10 font-serif text-center'>
                 <h1 className='font-semibold text-6xl text-white px-2'>

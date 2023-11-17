@@ -10,7 +10,7 @@ export default {
     },
     colors: {
       'green': '#08FFC8',
-      'white': '#FFF7F7',
+      'white': '#F6F6F6',
       'black': '#181818'
     },
     borderWidth: {
