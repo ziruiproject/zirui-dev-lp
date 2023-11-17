@@ -16,12 +16,12 @@ function App() {
       <Hero></Hero>
       <Services></Services>
       <Technologies></Technologies>
-      <div className='text-white'>
+      <div>
         <Title normal="Work" highlighted="Showcase">Work Showcase</Title>
-        <div className='mx-6 grid gap-y-7 grid-cols-1 '>
-          <PortoCard className="mb-8"></PortoCard>
-          <PortoCard className="mb-8"></PortoCard>
-          <PortoCard className="mb-8"></PortoCard>
+        <div className='grid grid-cols-1 mx-6 gap-y-7 '>
+          <PortoCard></PortoCard>
+          <PortoCard></PortoCard>
+          <PortoCard></PortoCard>
           <PortoCard></PortoCard>
         </div>
       </div>
