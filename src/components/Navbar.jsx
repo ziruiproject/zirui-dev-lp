@@ -3,8 +3,8 @@ import React from 'react';
 function Navbar() {
     return (
         <div>
-            <nav className='font-serif text-white font-thin px-10 py-6 border-b-1 border-green md:py-8 z-50'>
-                <ul className='flex text-xl justify-between align-middle lg:justify-evenly'>
+            <nav className='z-50 px-10 py-6 font-serif font-thin border-b-1 border-green md:py-8'>
+                <ul className='flex justify-between text-xl align-middle lg:justify-evenly'>
                     <li>Zirui Dev</li>
                     <li className='hidden md:flex'>Techonologies</li>
                     <li className='hidden md:flex'>Portofolio</li>
