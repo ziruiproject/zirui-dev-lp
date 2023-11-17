@@ -10,21 +10,17 @@
   display: none;
 }
 
-.button-active {
-  background: rgba(255, 247, 247, 0.30);
-  backdrop-filter: blur(12.5px);
-}
-
-.button-unactive {
-  border-radius: 5px;
-  border: 1px solid #E9E9E9;
+.glass-white {
   background: rgba(255, 247, 247, 0.30);
   backdrop-filter: blur(12.5px);
 }
 
 .glass {
-  background: linear-gradient(180deg, #232931 -15.26%, rgba(35, 41, 49, 0.38) -15.25%, rgba(35, 41, 49, 0.15) 100%);
+  background: rgba(255, 247, 247, 0.30);
   backdrop-filter: blur(12.5px);
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(233 233 233 / var(--tw-border-opacity));
 }
 
 .magicpattern { 

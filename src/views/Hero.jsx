@@ -17,8 +17,8 @@ function Hero() {
                 </h1>
                 <span className='py-6 text-lg font-light'>From initial design concepts to final deployment, we'll partner with you every step of the way to transform your digital dreams into reality.</span>
                 <div className='flex flex-col mx-14'>
-                    <button className='px-2 py-4 mb-3 text-xl font-medium button-active text-green rounded-5 border-green border-1'>Make it Happen</button>
-                    <button className='px-2 py-4 mb-3 text-xl font-medium text-[#C1C1C1] button-unactive'>Learn More</button>
+                    <button className='px-2 py-4 mb-3 text-xl font-medium glass-white text-green rounded-5 border-green border-1'>Make it Happen</button>
+                    <button className='px-2 py-4 mb-3 text-xl font-medium text-[#C1C1C1] border-[#E9E9E9] rounded-5 border-1 glass-white'>Learn More</button>
                 </div>
             </div>
         </div>

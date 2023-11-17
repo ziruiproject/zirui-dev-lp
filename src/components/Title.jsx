@@ -6,7 +6,7 @@ export default function Title({ normal, highlighted }) {
     }
 
     return (
-        <h2 className='text-white text-5xl text-center py-10'>
+        <h2 className='py-10 text-5xl text-center'>
             {normal} <span style={coloredStyle}>{highlighted}</span>
         </h2>
     )
