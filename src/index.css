@@ -37,6 +37,13 @@
   backdrop-filter: blur(12.5px);
 }
 
+.form-card {
+  border-radius: 5px;
+  border: 1px solid #C0C0C0;
+  background: rgba(255, 255, 255, 0.20);
+  backdrop-filter: blur(12.5px);
+}
+
 .shadow-card {
 border-radius: 16px;
 background: rgba(119, 118, 118, 0.20);
