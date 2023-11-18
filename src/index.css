@@ -30,6 +30,13 @@
   -webkit-backdrop-filter: blur(12.5px);
 }
 
+.service-card {
+  border-radius: 16px;
+  border: 1px solid #C0C0C0;
+  background: rgba(255, 255, 255, 0.20);
+  backdrop-filter: blur(12.5px);
+}
+
 .magicpattern { 
   position: absolute;
   width: 100vw;
