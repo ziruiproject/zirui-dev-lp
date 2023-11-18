@@ -11,7 +11,7 @@ function Services() {
                     </div>
                     <svg className='fixed -top-1/3 right-1/3' xmlns="http://www.w3.org/2000/svg" width="227" height="227" viewBox="0 0 227 227" fill="none">
                         <g filter="url(#filter0_f_225_5424)">
-                            <circle cx="113.5" cy="113.5" r="38.5" fill="#39A1CC" />
+                            <circle cx="113.5" cy="113.5" r="30" fill="#39A1CC" />
                         </g>
                         <defs>
                             <filter id="filter0_f_225_5424" x="0" y="0" width="227" height="227" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
@@ -31,7 +31,7 @@ function Services() {
                     </div>
                     <svg className='fixed -top-1/3 right-1/3' xmlns="http://www.w3.org/2000/svg" width="227" height="227" viewBox="0 0 227 227" fill="none">
                         <g filter="url(#filter0_f_225_5424)">
-                            <circle cx="113.5" cy="113.5" r="38.5" fill="#39A1CC" />
+                            <circle cx="113.5" cy="113.5" r="30" fill="#FF5163" />
                         </g>
                         <defs>
                             <filter id="filter0_f_225_5424" x="0" y="0" width="227" height="227" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
@@ -51,7 +51,7 @@ function Services() {
                     </div>
                     <svg className='fixed -top-1/3 right-1/3' xmlns="http://www.w3.org/2000/svg" width="227" height="227" viewBox="0 0 227 227" fill="none">
                         <g filter="url(#filter0_f_225_5424)">
-                            <circle cx="113.5" cy="113.5" r="38.5" fill="#39A1CC" />
+                            <circle cx="113.5" cy="113.5" r="30" fill="#08FFC8" />
                         </g>
                         <defs>
                             <filter id="filter0_f_225_5424" x="0" y="0" width="227" height="227" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
@@ -61,8 +61,8 @@ function Services() {
                             </filter>
                         </defs>
                     </svg>
-                    <img src="./src/assets/icons/pc.png" alt="" width={75} />
-                    <h3 className='py-2 text-3xl font-semibold'>Web Creation</h3>
+                    <img src="./src/assets/icons/maintain.png" alt="" width={75} />
+                    <h3 className='py-2 text-3xl font-semibold'>Software Maintenance</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                         Cupiditate at commodi officia, nobis, distinctio omnis, magnam.</p>
                 </div>
