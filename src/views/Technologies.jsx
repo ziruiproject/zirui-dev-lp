@@ -78,10 +78,9 @@ function Technologies() {
     ));
 
     return (
-        <div className='flex flex-col-reverse md:flex-col'>
+        <div className='flex flex-col px-6'>
             <Title normal="Mastering Most of" highlighted="Modern Technologies" />
-
-            <img src="/src/assets/techs.png" alt="" />
+            <img src={"./imgs/techs.png"} alt="" />
         </div>
     );
 }

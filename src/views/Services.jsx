@@ -5,7 +5,7 @@ function Services() {
     return (
         <div className='h-full px-6 bg-white'>
             <Title normal="We're Here to Serve" highlighted="What You Need" />
-            <div className='grid grid-cols-1 grid-rows-4 gap-5 place-items-center'>
+            <div className='grid gap-5  place-items-center'>
                 <div className='flex flex-col items-center justify-center w-3/4 p-4 text-center align-middle service-card'>
                     <div className='fixed w-full h-full shadow-card left-5 top-5 -z-50'>
                     </div>

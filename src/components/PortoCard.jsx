@@ -12,7 +12,7 @@ function PortoCard() {
                     </svg>
                 </div>
             </div>
-            <img src="./src/assets/dummy.png" alt="" />
+            <img src={"./imgs/dummy.png"} alt="" />
             <div className='px-6'>
                 <span className='pr-2 text-lg'>MADE WITH</span>
                 <div className='pt-1'>
