@@ -16,7 +16,7 @@ function App() {
       <Hero></Hero>
       <Services></Services>
       <Technologies></Technologies>
-      <div>
+      <div className='px-8'>
         <Title normal="Work" highlighted="Showcase">Work Showcase</Title>
         <div className='grid grid-cols-1 mx-6 gap-y-7 '>
           <PortoCard></PortoCard>
