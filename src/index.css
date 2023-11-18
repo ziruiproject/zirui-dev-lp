@@ -37,6 +37,12 @@
   backdrop-filter: blur(12.5px);
 }
 
+.shadow-card {
+border-radius: 16px;
+background: rgba(119, 118, 118, 0.20);
+filter: blur(37.5px);
+}
+
 .magicpattern { 
   position: absolute;
   width: 100vw;
