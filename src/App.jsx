@@ -16,15 +16,22 @@ function App() {
       <Hero></Hero>
       <Services></Services>
       <Technologies></Technologies>
-      <div className='px-8'>
-        <Title normal="Work" highlighted="Showcase">Work Showcase</Title>
+      <section className='px-6 pb-12'>
+        <Title normal="Webfolio: Navigating Our" highlighted="Past Projects"></Title>
         <div className='grid grid-cols-1 mx-6 gap-y-7 '>
           <PortoCard></PortoCard>
           <PortoCard></PortoCard>
           <PortoCard></PortoCard>
           <PortoCard></PortoCard>
         </div>
-      </div>
+      </section >
+      <section>
+
+      </section>
+      <section className='flex flex-col items-center'>
+        <Title className='text-center' normal="Let's Work" highlighted=" With Us"></Title>
+        <img src={"./imgs/work-wus.png"} alt="" />
+      </section>
 
     </>
   )

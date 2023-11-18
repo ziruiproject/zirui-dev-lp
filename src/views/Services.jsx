@@ -67,7 +67,7 @@ function Services() {
                         Cupiditate at commodi officia, nobis, distinctio omnis, magnam.</p>
                 </div>
                 <div className='flex flex-col items-center justify-center w-3/4 p-4 text-center align-middle service-card'>
-                    <div className='fixed w-full h-full shadow-card left-5 top-5 -z-50'></div>
+                    {/* <div className='fixed w-full h-full shadow-card left-5 top-5 -z-50'></div> */}
                     <svg className='fixed -top-1/3 right-1/3' xmlns="http://www.w3.org/2000/svg" width="227" height="227" viewBox="0 0 227 227" fill="none">
                         <g filter="url(#filter0_f_225_5424)">
                             <circle cx="113.5" cy="113.5" r="38.5" fill="#ECC285" />
