@@ -21,7 +21,7 @@ function Services() {
                             </filter>
                         </defs>
                     </svg>
-                    <img src="/src/assets/icons/pc.png" alt="" width={75} />
+                    <img src={"/icons/pc.png"} alt="" width={75} />
                     <h3 className='py-2 text-3xl font-semibold'>Web Creation</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                         Cupiditate at commodi officia, nobis, distinctio omnis, magnam.</p>
