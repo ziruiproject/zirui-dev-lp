@@ -42,6 +42,12 @@ function App() {
         </form>
         <span className='pt-5'> It's just between us, and we're here to help!</span>
         <span>Or You can reach us via:</span>
+        <div className='justify-evenly flex w-1/2 pt-4 text-xl align-middle'>
+          <i className="fa-solid fa-envelope"></i>
+          <i className="fa-brands fa-instagram"></i>
+          <i className="fa-brands fa-tiktok"></i>
+          <i className="fa-brands fa-linkedin"></i>
+        </div>
       </section>
 
     </>
