@@ -41,7 +41,7 @@ function Services() {
                             </filter>
                         </defs>
                     </svg>
-                    <img src="./src/assets/icons/mobile.png" alt="" width={75} />
+                    <img src={"./icons/mobile.png"} alt="" width={75} />
                     <h3 className='py-2 text-3xl font-semibold'>Mobile Development</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                         Cupiditate at commodi officia, nobis, distinctio omnis, magnam.</p>
@@ -61,7 +61,7 @@ function Services() {
                             </filter>
                         </defs>
                     </svg>
-                    <img src="./src/assets/icons/maintain.png" alt="" width={75} />
+                    <img src={"./icons/maintain.png"} alt="" width={75} />
                     <h3 className='py-2 text-3xl font-semibold'>Software Maintenance</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                         Cupiditate at commodi officia, nobis, distinctio omnis, magnam.</p>
@@ -81,7 +81,7 @@ function Services() {
                             </filter>
                         </defs>
                     </svg>
-                    <img src="./src/assets/icons/design.png" alt="" width={75} />
+                    <img src={"./icons/design.png"} alt="" width={75} />
                     <h3 className='py-2 text-3xl font-semibold'>UI/UX Design</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                         Cupiditate at commodi officia, nobis, distinctio omnis, magnam.</p>
