@@ -3,10 +3,12 @@ import Title from '../components/Title';
 
 function Services() {
     return (
-        <div className='h-full px-6 bg-white md:flex md:flex-row-reverse'>
+        <div className='h-full items-stretch px-6 bg-white md:flex md:flex-row-reverse md:justify-between'>
+
             <Title normal="We're Here to Serve" highlighted="What You Need" />
-            <div className='grid gap-5 place-items-center md:grid-cols-2 md:gap-0 md:gap-x-0 auto-rows-fr'>
-                <div className='flex flex-col items-center justify-center w-3/4 p-4 text-center align-middle service-card'>
+            <p className='hidden md:block text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptatem quibusdam delectus iusto cupiditate corrupti corporis aut obcaecati voluptatibus vel incidunt fugit, aspernatur tempore facilis soluta suscipit ipsam et excepturi.</p>
+            <div className='container grid gap-5 place-items-center md:grid-cols-2 md:auto-rows-fr md:place-items-start md:w-5/6 md:my-8'>
+                <div className='h-full flex flex-col items-center justify-center w-3/4 p-4 text-center align-middle service-card md:w-full'>
                     {/* <div className='fixed w-full h-full shadow-card left-5 top-5 -z-50'> */}
                     {/* </div> */}
                     <svg className='fixed -top-1/3 right-1/3' xmlns="http://www.w3.org/2000/svg" width="227" height="227" viewBox="0 0 227 227" fill="none">
@@ -26,7 +28,7 @@ function Services() {
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                         Cupiditate at commodi officia, nobis, distinctio omnis, magnam.</p>
                 </div>
-                <div className='flex flex-col items-center justify-center w-3/4 p-4 text-center align-middle service-card'>
+                <div className='h-full flex flex-col items-center justify-center w-3/4 p-4 text-center align-middle service-card md:w-full'>
                     {/* <div className='fixed w-full h-full shadow-card left-5 top-5 -z-50'> */}
                     {/* </div> */}
                     <svg className='fixed -top-1/3 right-1/3' xmlns="http://www.w3.org/2000/svg" width="227" height="227" viewBox="0 0 227 227" fill="none">
@@ -46,7 +48,7 @@ function Services() {
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                         Cupiditate at commodi officia, nobis, distinctio omnis, magnam.</p>
                 </div>
-                <div className='flex flex-col items-center justify-center w-3/4 p-4 text-center align-middle service-card'>
+                <div className='h-full flex flex-col items-center justify-center w-3/4 p-4 text-center align-middle service-card md:w-full'>
                     {/* <div className='fixed w-full h-full shadow-card left-5 top-5 -z-50'> */}
                     {/* </div> */}
                     <svg className='fixed -top-1/3 right-1/3' xmlns="http://www.w3.org/2000/svg" width="227" height="227" viewBox="0 0 227 227" fill="none">
@@ -66,7 +68,7 @@ function Services() {
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                         Cupiditate at commodi officia, nobis, distinctio omnis, magnam.</p>
                 </div>
-                <div className='flex flex-col items-center justify-center w-3/4 p-4 text-center align-middle service-card'>
+                <div className='h-full flex flex-col items-center justify-center w-3/4 p-4 text-center align-middle service-card md:w-full'>
                     {/* <div className='fixed w-full h-full shadow-card left-5 top-5 -z-50'></div> */}
                     <svg className='fixed -top-1/3 right-1/3' xmlns="http://www.w3.org/2000/svg" width="227" height="227" viewBox="0 0 227 227" fill="none">
                         <g filter="url(#filter0_f_225_5424)">
