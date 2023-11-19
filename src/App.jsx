@@ -18,7 +18,7 @@ function App() {
       <Hero></Hero>
       <Services></Services>
       <Technologies></Technologies>
-      <section className='flex flex-col items-center px-6 pb-12'>
+      <section className='flex flex-col items-center px-8 pb-12'>
         <Title normal="Showing Our" highlighted="Past Projects"></Title>
         <div className='gap-y-7 md:w-5/6 md:grid-cols-2 md:gap-5 grid grid-cols-1'>
           <PortoCard></PortoCard>
