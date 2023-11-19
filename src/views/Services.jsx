@@ -4,9 +4,10 @@ import Title from '../components/Title';
 function Services() {
     return (
         <div className='h-full items-stretch px-6 bg-white md:flex md:flex-row-reverse md:justify-between'>
-
-            <Title normal="We're Here to Serve" highlighted="What You Need" />
-            <p className='hidden md:block text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptatem quibusdam delectus iusto cupiditate corrupti corporis aut obcaecati voluptatibus vel incidunt fugit, aspernatur tempore facilis soluta suscipit ipsam et excepturi.</p>
+            <div className='md:w-2/3 md:flex md:flex-col md:justify-center md:pl-12'>
+                <Title normal="We're Here to Serve" highlighted="What You Need" />
+                <p className='hidden md:block text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptatem quibusdam delectus iusto cupiditate corrupti corporis aut obcaecati voluptatibus vel incidunt fugit, aspernatur tempore facilis soluta suscipit ipsam et excepturi.</p>
+            </div>
             <div className='container grid gap-5 place-items-center md:grid-cols-2 md:auto-rows-fr md:place-items-start md:w-5/6 md:my-8'>
                 <div className='h-full flex flex-col items-center justify-center w-3/4 p-4 text-center align-middle service-card md:w-full'>
                     {/* <div className='fixed w-full h-full shadow-card left-5 top-5 -z-50'> */}
