@@ -18,23 +18,23 @@ function App() {
       <Hero></Hero>
       <Services></Services>
       <Technologies></Technologies>
-      <section className='px-6 pb-12 flex flex-col items-center'>
+      <section className='flex flex-col items-center px-6 pb-12'>
         <Title normal="Showing Our" highlighted="Past Projects"></Title>
-        <div className='gap-y-7 md:w-5/6 grid grid-cols-1 md:grid-cols-2 md:gap-5'>
+        <div className='gap-y-7 md:w-5/6 md:grid-cols-2 md:gap-5 grid grid-cols-1'>
           <PortoCard></PortoCard>
           <PortoCard></PortoCard>
           <PortoCard></PortoCard>
           <PortoCard></PortoCard>
         </div>
       </section >
-      <section className='h-screen px-6 md:flex md:justify-center '>
-        <div className='h-full w-5/6 grid grid-cols-1 items-center md:grid-cols-2'>
+      <section className='flex justify-center h-screen px-6'>
+        <div className='md:grid-cols-2 grid items-center w-5/6 h-full grid-cols-1'>
           <h2 className='pt-10 text-5xl font-semibold text-center'>
             Let's Talk, <br />
             <span style={coloredStyle}>No Cost, <br />
             </span> Just Answers.
           </h2>
-          <div className='flex md:flex-col md:items-center'>
+          <div className='flex flex-col items-center'>
             <img className='w-5/6' src={"./imgs/lets-talk.png"} alt="" />
             <form action="get">
               <input placeholder='Enter your email here' className='form-card focus:outline-none px-4 py-2 scale-150' type="text" />
