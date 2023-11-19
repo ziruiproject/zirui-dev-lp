@@ -18,9 +18,9 @@ function App() {
       <Hero></Hero>
       <Services></Services>
       <Technologies></Technologies>
-      <section className='px-6 pb-12'>
-        <Title normal="Webfolio: Navigating Our" highlighted="Past Projects"></Title>
-        <div className='gap-y-7 grid grid-cols-1'>
+      <section className='px-6 pb-12 md:w-5/6 flex flex-col items-center justify-center'>
+        <Title normal="Showing Our" highlighted="Past Projects"></Title>
+        <div className='gap-y-7 grid grid-cols-1 md:grid-cols-2 md:gap-5'>
           <PortoCard></PortoCard>
           <PortoCard></PortoCard>
           <PortoCard></PortoCard>
