@@ -29,7 +29,7 @@ function App() {
       </section >
       <section className='flex justify-center h-screen px-6'>
         <div className='md:grid-cols-2 grid items-center w-5/6 h-full grid-cols-1'>
-          <h2 className='pt-10 text-5xl font-semibold text-center'>
+          <h2 className='pt-10 text-5xl lg:text-6xl font-semibold text-center'>
             Let's Talk, <br />
             <span style={coloredStyle}>No Cost, <br />
             </span> Just Answers.
